@@ -1,4 +1,4 @@
-package AppMob;
+package Atividade05;
 
 public class Utils {
     protected String nome;

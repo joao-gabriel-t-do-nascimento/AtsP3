@@ -1,4 +1,4 @@
-package AgendaPaste;
+package Atividade02;
 
 public class AgendaClass {
     private String[] contato_name = new String[1];

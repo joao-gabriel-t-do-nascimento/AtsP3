@@ -1,4 +1,4 @@
-package BhaskaraPaste;
+package Atividade01;
 
 import java.util.Scanner;
 

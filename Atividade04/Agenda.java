@@ -1,4 +1,4 @@
-package at04;
+package Atividade04;
 
 public class Agenda {
     protected String[] nome = new String[500];
@@ -16,28 +16,28 @@ public class Agenda {
         pos++;
     }
 
-    void buscarNome(String nome){
-        for(int i = 0; i < this.nome.length; i++){
-            if(this.nome[i].equals(nome)){
+    void buscarNome(String nome) {
+        for (int i = 0; i < this.nome.length; i++) {
+            if (this.nome[i].equals(nome)) {
                 System.out.println("Nome:" + this.nome + ", email:" + this.email);
             }
         }
     }
 
-    void buscarEmail(String email){
-        for(int i = 0; i < this.email.length; i++){
-            if(this.email[i].equals(email)){
+    void buscarEmail(String email) {
+        for (int i = 0; i < this.email.length; i++) {
+            if (this.email[i].equals(email)) {
                 System.out.println("Nome:" + this.nome[i] + ", email:" + this.email[i]);
                 break;
             }
         }
     }
 
-    void buscarPosisção(int pos){
+    void buscarPosisção(int pos) {
         System.out.println("Nome:" + this.nome[pos] + ", email:" + this.email[pos]);
     }
 
-    void setNome(String nome){
+    void setNome(String nome) {
         this.nome[this.pos] = nome;
     }
 }

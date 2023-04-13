@@ -1,4 +1,4 @@
-package AppMob;
+package Atividade05;
 
 public class Passageiro extends Utils {
     private double saldo, distancia;

@@ -1,4 +1,4 @@
-package AppMob;
+package Atividade05;
 
 public class Motorista extends Utils {
     double valorDaCorrida;
@@ -9,11 +9,7 @@ public class Motorista extends Utils {
 
     public Boolean aceitarCorrida(double saldo, double distancia) {
         valorDaCorrida = distancia * 2.5;
-        if (saldo >= valorDaCorrida) {
-            return true;
-        } else {
-            return false;
-        }
+        return saldo >= valorDaCorrida;
     }
 
     public double getValorDaCorrida() {

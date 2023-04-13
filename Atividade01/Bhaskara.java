@@ -1,4 +1,4 @@
-package BhaskaraPaste;
+package Atividade01;
 
 public class Bhaskara {
     public void bask(double a, double b, double c) {

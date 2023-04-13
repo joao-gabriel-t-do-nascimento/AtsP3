@@ -1,4 +1,4 @@
-package AgendaPaste;
+package Atividade02;
 
 import java.util.Scanner;
 

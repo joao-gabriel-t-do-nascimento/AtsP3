@@ -1,4 +1,4 @@
-package AppMob;
+package Atividade05;
 
 import java.util.Scanner;
 
